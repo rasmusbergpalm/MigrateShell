@@ -9,7 +9,7 @@ Really really simple migrations for CakePHP
 
 MigrateShell is extremely simple: It runs a set of SQL scripts in the correct order, and keeps track of what has been migrated. When you want to do a migration, simply create a SQL script, put it in the migrations folder and run the shell.
 
- - Download MigrateShell.php and place it in app/Console/Command/MigrateShell.php
+ - Download MigrateShell.php and place it in app/Console/Command/
  - Create a folder app/Config/Schema/migrations
  - Place your SQL migration scripts in that folder, with a sequential naming scheme, e.g. '1.sql, 2.sql ... 12.sql' or '20120521162532-init.sql, 20130629130510-upgrade.sql', etc.
  - ``` $cake migrate ```
